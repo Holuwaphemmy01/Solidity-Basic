@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addNft",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "displayNft",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "subtractNft",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"incrementAndDecrement.sol": "NFTCounter"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"incrementAndDecrement.sol": {
+			"keccak256": "0x79af7b21d6c2104e5ab60b82ef4dcac622e98dee32a0a9a6e34771f0ba236787",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://85b48e2dd4735ef77447dd10accf386110352e76d92cef788054d1210ff516e0",
+				"dweb:/ipfs/QmRAG2BjHQWPQnq8H1wCT6tDW8yPKiHES2RgoUomnMG9vy"
+			]
+		}
+	},
+	"version": 1
+}
